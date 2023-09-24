@@ -10,3 +10,12 @@ x = re.search("^h.*y", txt)
 
 if x : print("Yes")
 
+st = "rain in spain"
+
+f = re.findall('ai',st)
+
+print(f)
+
+s = re.split("/s",st)
+
+print(s)
